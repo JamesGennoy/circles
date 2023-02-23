@@ -1,6 +1,6 @@
 # Circles
 
-Click on the screen.
+Click on the screen for circles.
 
 ## Getting Started
 
