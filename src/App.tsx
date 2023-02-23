@@ -28,7 +28,11 @@ export function App() {
   };
 
   return (
-    <div className={classes.canvas} onClick={handleCanvasClick}>
+    <div
+      data-testid="canvas"
+      className={classes.canvas}
+      onClick={handleCanvasClick}
+    >
       {circles.map((circle) => (
         <Circle {...circle} />
       ))}

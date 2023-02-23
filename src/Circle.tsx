@@ -21,6 +21,7 @@ export function Circle(props: CircleType) {
   return (
     <div
       className={classes.circle}
+      data-testid="circle"
       style={{
         left,
         top,
