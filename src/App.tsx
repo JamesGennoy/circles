@@ -34,7 +34,7 @@ export function App() {
       onClick={handleCanvasClick}
     >
       {circles.map((circle) => (
-        <Circle {...circle} />
+        <Circle key={circle.x + circle.y} {...circle} />
       ))}
       <div className={classes.buttonContainer} ref={buttonContainerRef}>
         <button onClick={handleBackButtonClick}>{'⏮️'}</button>
